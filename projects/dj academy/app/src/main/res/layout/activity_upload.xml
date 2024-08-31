@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="23dp"
+    android:padding="23dp"
+    android:gravity="center"
+    tools:context=".Users.Staff.Student.UploadActivity">
+
+    <EditText
+        android:id="@+id/mixnmid"
+       android:layout_marginBottom="21dp"
+        android:background="@drawable/input"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+
+        android:hint="Enter mix name"
+        />
+    <EditText
+        android:id="@+id/getmixid"
+        android:layout_marginBottom="21dp"
+
+        android:background="@drawable/input"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+
+        android:hint="enter the mix from the phone storage"
+        />
+
+    <Button
+        android:id="@+id/btn_uploadmix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Upload Mix"
+        />
+
+</LinearLayout>

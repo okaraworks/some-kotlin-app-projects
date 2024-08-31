@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+<TextView
+
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="21dp"
+    android:layout_margin="21dp"
+    android:textStyle="bold"
+    android:text="Enter your details to be able to acces\n the hackbot"
+
+
+
+    />
+    <TextView
+        android:text="Enter your phone number"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:gravity="center"
+        android:background="@drawable/input"
+        android:maxLength="10"
+        android:id="@+id/foneid"
+        android:inputType="number"
+
+        android:layout_margin="21dp"
+        android:hint="07xxxxxxx"
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <TextView
+        android:text="Enter your password"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:gravity="center"
+        android:background="@drawable/input"
+        android:id="@+id/passid"
+        android:inputType="number"
+        android:layout_margin="21dp"
+        android:hint="0000"
+        android:maxLength="6"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <TextView
+        android:text="Enter your access code"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:gravity="center"
+        android:background="@drawable/input"
+        android:id="@+id/accescode"
+        android:inputType="number"
+        android:layout_margin="21dp"
+        android:hint="0000"
+        android:maxLength="4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <Button
+        android:id="@+id/idbtn"
+        android:layout_margin="21dp"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

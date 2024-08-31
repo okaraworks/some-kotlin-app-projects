@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "186808100501",
+    "firebase_url": "https://winbetin-86096-default-rtdb.firebaseio.com",
+    "project_id": "winbetin-86096",
+    "storage_bucket": "winbetin-86096.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186808100501:android:3975aa255c37ae2ea05d9c",
+        "android_client_info": {
+          "package_name": "com.kim.siwezi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186808100501-1a8j8bgsk896a1120f024onv2vb96fdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtxo8P9LL80SIp-kYQ6gf0RyQXSUo2kRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186808100501-1a8j8bgsk896a1120f024onv2vb96fdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

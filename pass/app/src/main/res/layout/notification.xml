@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+
+     android:layout_marginLeft="21dp"
+
+            android:id="@+id/icon"
+            android:src="@drawable/icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+       android:layout_centerInParent="true"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="This is the title"
+
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the title"
+        android:textSize="21dp"
+
+        android:gravity="center"
+
+        />
+
+</LinearLayout>

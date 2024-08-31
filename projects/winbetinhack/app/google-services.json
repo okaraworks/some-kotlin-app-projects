@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "873528160854",
+    "project_id": "winbetin-955b7",
+    "storage_bucket": "winbetin-955b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873528160854:android:15b7a72954d2ab92b201f7",
+        "android_client_info": {
+          "package_name": "com.kim.firebaze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873528160854-qklr6q8emrufc93m9fjfh3e43gtq7fko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0h0OekdKSwtlV5JGM-ZUEOIO7NGWHQ5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873528160854-qklr6q8emrufc93m9fjfh3e43gtq7fko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
